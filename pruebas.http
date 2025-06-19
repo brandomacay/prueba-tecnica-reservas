@@ -1,0 +1,11 @@
+### Prueba de creación de reserva
+POST http://localhost:3000/reserva
+Content-Type: application/json
+
+{
+  "salaId": 1,
+  "usuarioId": 2,
+  "fecha": "2025-05-16",
+  "horaInicio": "14:00",
+  "horaFin": "14:30"
+}
